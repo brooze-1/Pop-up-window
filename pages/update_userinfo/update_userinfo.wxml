@@ -1,0 +1,23 @@
+<!--pages/update_userinfo/update_userinfo.wxml-->
+<!-- 弹窗功能（用于确认个人信息） -->
+  <!-- 遮罩层 -->
+<form bindsubmit="formSubmit">
+  <view wx:if="{{isShow}}" class='cover'>
+    <!-- 可在此按需求自定义遮罩 -->
+    <view style="position: relative;">
+      <view class='cover_child'>
+      <!-- 信息输入界面 -->
+        <text class="child-title">学生证信息核对</text>
+        <input class="weui-input" name="name" type="name" placeholder="姓名" bindinput="bindKeyInput" value = "{{student_info.name}}" />
+        <input class="weui-input" name="ID" type="ID" placeholder="学号" bindinput="bindKeyInput" value = "{{student_info.ID}}" />
+        <input class="weui-input" name="college" type="college" placeholder="学院" bindinput="bindKeyInput" value = "{{student_info.college}}" />
+        <input class="weui-input" name="major" type="major" placeholder="专业班级" bindinput="bindKeyInput" value = "{{student_info.major}}" />
+      </view>
+      <!-- 取消、确定按钮 -->
+      <view class='btn-group'>
+        <view class="cancel" catchtap="hideCover" style="color: #5A6B8F;">取消</view>
+        <button class="checkStudentInfo" style="color: #5A6B8F;" hover-class="wehx-button_hover" form-type='submit'>确定</button>
+    </view>
+  </view>
+</view>
+</form>
