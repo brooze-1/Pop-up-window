@@ -4,11 +4,13 @@
 
 效果演示：
 
-<center><img src="https://img-blog.csdnimg.cn/7084ec166a00410aa97189d54ec2f552.png" width="50%"></center>
+<center><img src="https://img-blog.csdnimg.cn/e3172ba8e9424d388f31ac43d482d9c5.png" width="50%"></center>
 
-<center><img src="https://img-blog.csdnimg.cn/d33f566d29a4495fb2e5f1298f6136f7.gif" width="50%"></center>
+<center><img src="https://img-blog.csdnimg.cn/b2974d9345b448e081d68940a6104207.gif" width="100%"></center>
 
-项目博客地址为：[微信小程序之图片上传功能](https://blog.csdn.net/booze_/article/details/127856744),同时也欢迎大家访问我的博客。
+
+
+项目博客地址为：[微信小程序之弹窗功能](https://blog.csdn.net/booze_/article/details/127863482),同时也欢迎大家访问我的博客。
 
 
 
